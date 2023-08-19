@@ -15,14 +15,21 @@
 }
 
 body {
+  height: 100vh;
   margin: 0;
   display: flex;
-  place-items: center;
+  place-items: initial;
+  background-image: url('https://wallpapercave.com/wp/UQGWaQD.jpg');
 }
 
 h1 {
+  color: #1a1a1a;
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+p{
+  color: #1a1a1a;
 }
 
 button {

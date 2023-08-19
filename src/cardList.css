@@ -1,7 +1,13 @@
-.container{
+.container {
+    background-color: rgb(134, 79, 185);
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 1em;
-    border: 1px solid red;
+    height: auto;
+    width: 80vw;
+    padding: 2em;
+    border-radius: 50px;
 }
